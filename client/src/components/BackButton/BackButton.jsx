@@ -5,7 +5,7 @@
         return (
             <div className="back-button-container">
                 <button 
-                    className='back-button'
+                    classNamE='back-button'
                     onClick={onClick}
                 >Back to menu
                 </button>

@@ -1,11 +1,10 @@
-import React from 'react';
 import './NoRecipesMessage.css';
-
-function NoRecipesMessage(props) {
-    return (
-        <div className='no-recipes-mesage'>
-            <span>Sorry, no recipes found for your query :(. <br /> Please adjust your settings to get results.</span>
-        </div>)
-        };
-
-export default NoRecipesMessage
+const NoRecipesMessage = () => {
+  return (
+    <div className="no-recipes-message">
+      <h2>No recipes found</h2>
+      <p>Try adding some new ones!</p>
+    </div>
+  );
+};
+export default NoRecipesMessage;
